@@ -1,0 +1,110 @@
+@keyframes grow {
+  from {
+    height: 80%;
+    width: 80%;
+  }
+  50% {
+    height: inherit;
+    width: inherit;
+  }
+  to {
+    height: 80%;
+    width: 80%;
+  }
+}
+
+html, body, p, ul, h1, h2, h3, h4, h5 {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'VT323', monospace;
+  font-size: 40px;
+}
+
+.container {
+  height: 800px;
+  width: auto;
+  /*background-color: yellow;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  height: 700px;
+  width: 800px;
+  /*background-color: pink;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.devmons {
+  height: 400px;
+  width: 800px;
+  /*background-color: orange;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.mon {
+  height: 300px;
+  width: 200px;
+  margin: 10px;
+  /*background-color: blue;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mon img {
+  height: 80%;
+  width: 80%;
+}
+
+/*.mon img:hover {
+  animation-name: grow;
+  animation-duration: 1s;
+}*/
+
+.buttons {
+  height: 200px;
+  width: 700px;
+  /*background-color: rgb(30,147,45);*/
+  /*border-radius: 30px;*/
+  /*border: 1px solid black;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-holder {
+  height: 100px;
+  width: 700px;
+  /*background-color: red;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#text {
+  /*background-color: grey;*/
+}
+
+.go-button {
+  height: 50px;
+  width: 700px;
+  /*background-color: lightblue;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#go {
+  height: 30px;
+  width: 60px;
+}
